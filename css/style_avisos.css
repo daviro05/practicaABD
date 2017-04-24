@@ -1,0 +1,21 @@
+.error_2
+{
+	color:white;
+	text-shadow: 0 0 0.2em #F87, 0 0 2em black;
+	text-align: center;
+}
+
+.aviso
+{
+	color:white;
+	text-shadow: 0 0 0.2em yellow;
+	    text-align: center;
+	
+}
+
+.correcto
+{
+	color:white;
+	text-shadow: 0 0 0.2em #8F7;
+	    text-align: center;
+}

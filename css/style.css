@@ -1,0 +1,146 @@
+html,body {
+	margin:0;
+	padding:0;
+	background:#3a4652 url("../imagenes/fond.gif") repeat-x;
+	font-family:arial,sans-serif;
+	font-size:small;
+	color:#ffffff;
+}
+
+div#container {
+	position:relative;
+	margin:0 auto;
+	width:900px;
+	background: #4b5b6c;
+	height:auto !important; /* real browsers */
+	height:100%; /* IE6: treaded as min-height*/
+	min-height:100%; /* real browsers */
+}
+
+div#header {
+	position: relative;
+	padding:0em;
+	height:442px;
+	background: url(../imagenes/fond_haut.gif) top no-repeat;
+}
+
+div#logo {
+	float: left;
+	padding: 20px 0 0 30px;
+	width: 420px;
+	height: 104px;
+	text-align: left;
+}
+div#menu_haut {
+	float: left;
+	padding:0em;
+	width: 450px;
+	height: 124px;
+	text-align: right;
+}
+
+div#menu_img {
+	clear: left;
+	text-align: center;
+	height: 245px;
+	background: url(../imagenes/panel.jpg) no-repeat;
+}
+
+div#menu {
+	position: absolute;
+	top: 358px;
+	width: 900px;
+	padding:0em;
+	text-align: center;
+}
+
+div#content {
+	padding: 0em 0em 5em;
+	background: url("../imagenes/fond_contenu.gif") repeat-x;
+	color: #333;
+	text-align: center;
+}
+
+div#footer {
+	position:absolute;
+	width:100%;
+	height: 18px;
+	bottom:0; /* stick to bottom */
+	background: #292f37;
+	text-align: center;
+	z-index: 0;
+}
+
+div#copy {
+	position:absolute;
+	width:100%;
+	height: 18px;
+	bottom:0; /* stick to bottom */
+	text-align: right;
+	z-index: 1;
+}
+
+#navigation {
+	margin: 0 ;
+	padding: 0 ;
+	list-style: none;
+}
+
+#navigation li {
+	float: left ;
+	width: 114px ;
+	height: 58px;
+	margin-right: 7.3px;
+	position: relative;
+	color: #fff;
+}
+
+#navigation li a {
+	display: block;
+	color: #fff ;
+	font: 14px "Trebuchet MS",Arial,sans-serif ;
+	text-align: center ;
+	text-decoration: none;
+	height: 58px;
+	width: 114px;
+	line-height: 14px;
+}
+
+#navigation li a:hover, #navigation li a:focus, #navigation li a:active {
+	color: #333;
+	text-decoration: none;
+}
+
+.contenido table
+{
+	color: white;
+	border: 1px solid white;
+	text-align: center;
+	
+}
+
+h1 {
+	font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #FFF;
+}
+
+.copy {
+	font: 10px Arial, Helvetica, sans-serif;
+	color: #FFF;
+	margin: 2px;
+}
+
+
+.lienHaut {
+	font: 11px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #FFF;
+	text-decoration: none;
+	padding: 0 7px 0 7px;
+}
+
+.lienHaut:hover {
+	font: 11px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #888;
+	text-decoration: none;
+	padding: 0 7px 0 7px;
+}
